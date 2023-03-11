@@ -9,7 +9,9 @@
     <title>lesson-3</title>
   </head>
   <body>
+    <h2>Image 1</h2>
     <img src="images/stitch-sand.png" alt="No Immage" width="200" />
+    <h2>Info Lists</h2>
     <ol>
       <li>
         Занкомство с Web
@@ -44,8 +46,7 @@
         </ul>
       </li>
     </ol>
-    <img src="images/stitch.png" alt="No Immage" width="200" />
-
+    <h2>Tag table</h2>
     <table border="1" width="100%">
       <tr>
         <th><b>Tag</b></th>
@@ -86,6 +87,71 @@
         <td>Groups the footer content in a table</td>
       </tr>
     </table>
+    <h2>Image 2</h2>
+    <img src="images/stitch.png" alt="No Immage" width="200" />
+    <form action="/" method="get">
+      <fieldset>
+        <legend>My First Form</legend>
+        <p>
+          <label for="name">Name </label><br />
+          <input
+            id="name"
+            type="text"
+            name="name"
+            placeholder="Your name"
+            required
+          />
+        </p>
+        <p>
+          <label for="email">Email </label><br />
+          <input id="email" type="email" name="email" required />
+        </p>
+        <p>
+          <label for="password">Password </label><br />
+          <input id="password" type="password" name="password" required />
+        </p>
+        <p>
+          <label for="level">Your programming level </label><br />
+          <input id="level" type="range" name="level" min="0" max="10" />
+        </p>
+        <p>
+          <label>What does HTML stand for? </label><br />
+          <br />
+          <input type="checkbox" name="" id="HTML1" value="1" />
+          <label for="HTML1">Hyper Text Translate Protocol </label><br />
+          <input type="checkbox" name="" id="HTML2" value="2" />
+          <label for="HTML2">Hyper Text Transfer Protocol </label><br />
+          <input type="checkbox" name="" id="HTML3" value="3" />
+          <label for="HTML3">Hyper Text Transmission Protocol </label><br />
+        </p>
+        <p>
+          <label>What does HTTP stand for? </label><br />
+          <br />
+          <input type="radio" name="raio_choice" id="HTTP1" value="1" />
+          <label for="HTTP1">Hyper Text Translate Protocol </label><br />
+          <input type="radio" name="raio_choice" id="HTTP2" value="2" />
+          <label for="HTTP2">Hyper Text Transfer Protocol </label><br />
+          <input type="radio" name="raio_choice" id="HTTP3" value="3" />
+          <label for="HTTP3">Hyper Text Transmission Protocol </label><br />
+        </p>
+        <p>
+          <label>Comment </label><br />
+          <textarea name="comment" id="comment" cols="25" rows="3">
+Comment</textarea
+          >
+        </p>
+        <p>
+          <label for="select">What does HTML stand for? </label><br />
+          <select name="select" id="select">
+            <option disabled selected>Your answer</option>
+            <option>Hyper Text Markup Language</option>
+            <option>Hyperlinks and Text Markup Language</option>
+            <option>Home Tool Markup Language</option>
+          </select>
+        </p>
+        <p><button>Send</button></p>
+      </fieldset>
+    </form>
     <hr />
   </body>
 </html>
