@@ -92,7 +92,7 @@
     <form action="/" method="get">
       <fieldset>
         <legend>My First Form</legend>
-        <p>
+        <div>
           <label for="name">Name </label><br />
           <input
             id="name"
@@ -101,20 +101,20 @@
             placeholder="Your name"
             required
           />
-        </p>
-        <p>
+        </div>
+        <div>
           <label for="email">Email </label><br />
           <input id="email" type="email" name="email" required />
-        </p>
-        <p>
+        </div>
+        <div>
           <label for="password">Password </label><br />
           <input id="password" type="password" name="password" required />
-        </p>
-        <p>
+        </div>
+        <div>
           <label for="level">Your programming level </label><br />
           <input id="level" type="range" name="level" min="0" max="10" />
-        </p>
-        <p>
+        </div>
+        <div>
           <label>What does HTML stand for? </label><br />
           <br />
           <input type="checkbox" name="" id="HTML1" value="1" />
@@ -123,8 +123,8 @@
           <label for="HTML2">Hyper Text Transfer Protocol </label><br />
           <input type="checkbox" name="" id="HTML3" value="3" />
           <label for="HTML3">Hyper Text Transmission Protocol </label><br />
-        </p>
-        <p>
+        </div>
+        <div>
           <label>What does HTTP stand for? </label><br />
           <br />
           <input type="radio" name="raio_choice" id="HTTP1" value="1" />
@@ -133,14 +133,20 @@
           <label for="HTTP2">Hyper Text Transfer Protocol </label><br />
           <input type="radio" name="raio_choice" id="HTTP3" value="3" />
           <label for="HTTP3">Hyper Text Transmission Protocol </label><br />
-        </p>
-        <p>
+        </div>
+        <div>
           <label>Comment </label><br />
-          <textarea maxlength =  "500" name="comment" id="comment" cols="25" rows="3">
+          <textarea
+            maxlength="500"
+            name="comment"
+            id="comment"
+            cols="25"
+            rows="3"
+          >
 Comment</textarea
           >
-        </p>
-        <p>
+        </div>
+        <div>
           <label for="select">What does HTML stand for? </label><br />
           <select name="select" id="select">
             <option disabled selected>Your answer</option>
@@ -148,8 +154,8 @@ Comment</textarea
             <option>Hyperlinks and Text Markup Language</option>
             <option>Home Tool Markup Language</option>
           </select>
-        </p>
-        <p><button>Send</button></p>
+        </div>
+        <div><button>Send</button></div>
       </fieldset>
     </form>
     <hr />
