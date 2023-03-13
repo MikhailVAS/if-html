@@ -1,6 +1,9 @@
 p {
   color: #0360b0;
 }
+* {
+  margin: 0;
+}
 
 input [type] {
   color: #d75420;
@@ -10,8 +13,29 @@ input [type] {
   color: #d75420;
 }
 
+p:before{
+  content: '1. ';
+  color: black;
+}
+p:after{
+  content: '! ';
+  color: black;
+}
+.wrapper p {
+
+  color: #49d380;
+}
+.wrapper > p
+{
+  color: #e5e51e;
+}
+
 .primary {
   color: #f51223;
+}
+
+.primary:hover {
+  color: #611996;
 }
 
 .text-center {
