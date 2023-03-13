@@ -1,0 +1,19 @@
+p {
+  color: #0360b0;
+}
+
+input [type] {
+  color: #d75420;
+}
+
+#title {
+  color: #d75420;
+}
+
+.primary {
+  color: #f51223;
+}
+
+.text-center {
+  text-align: center;
+}
