@@ -3,6 +3,11 @@
   text-align: center;
 }
 
+.margin-lr-a {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .container {
   width: 1440px;
   height: 569px;
@@ -24,35 +29,30 @@
   height: 4px;
   background-color: #f5bd41;
   margin-bottom: 80px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .container-panel {
-  /*box-sizing: border-box;*/
   display: flex;
   flex-direction: row;
-  margin-left: auto;
-  margin-right: auto;
+  width: 1232px;
 }
+
 .panel-block {
   width: 296px;
   height: 180px;
-  margin-left: 16px;
-  margin-right: 16px;
   position: relative;
+}
+
+.src-top {
+  margin-top: -30px;
 }
 
 .text-panel {
   font-size: 24px;
   margin-bottom: 8px;
-  bottom: 0;
-  position: absolute;
-  margin-left: auto;
-  margin-right: auto;
+  position: relative;
+  top: 142px;
 }
-
-
 
 /** {*/
 /*    margin: 0;*/
@@ -117,5 +117,3 @@
 /*    background-color: #f0f0f0;*/
 /*    border: 1px solid #c0c0c0;*/
 /*}*/
-
-/*====================================*/
