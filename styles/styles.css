@@ -8,7 +8,7 @@ body {
 }
 
 .container {
-  /*width: 1440px;*/
+  width: 1235px;
   /*height: 569px;*/
   margin: 0 auto;
 }
@@ -17,7 +17,6 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /**/
   padding-top: 120px;
   padding-bottom: 20px;
   font-size: 40px;
@@ -33,17 +32,26 @@ body {
 
 .container-panel {
   display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.img-block {
+  display: flex;
+  align-items: center; /*центируем по оси у*/
+  justify-content: center; /*центируем по оси х*/
+  height: 100px;
 }
 
 .panel-block {
   width: 296px;
-  /*height: 180px;*/
 }
 
 .text-panel {
   font-size: 24px;
-  /*padding-top: 200px;*/
+  display: flex;
+  justify-content: center;
+  align-self: flex-end;
+  padding-top: 50px;
   margin-bottom: 8px;
-  position: relative;
-  top: 142px;
 }
