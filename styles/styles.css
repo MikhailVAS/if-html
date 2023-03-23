@@ -23,12 +23,19 @@ body {
 }
 
 .dividing-line {
+  margin: 40px 45% 80px 45%  ;
   width: 100px;
   height: 4px;
   background-color: #f5bd41;
-  margin-bottom: 80px;
-  margin-top: 40px;
 }
+
+/*.dividing-line {*/
+/*  width: 100px;*/
+/*  height: 4px;*/
+/*  background-color: #f5bd41;*/
+/*  margin-bottom: 80px;*/
+/*  margin-top: 40px;*/
+/*}*/
 
 .container-panel {
   display: flex;
