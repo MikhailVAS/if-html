@@ -23,7 +23,7 @@ body {
 }
 
 .dividing-line {
-  margin: 40px 45% 80px 45%  ;
+  margin: 40px 44% 80px 46%;
   width: 100px;
   height: 4px;
   background-color: #f5bd41;
@@ -41,6 +41,8 @@ body {
   display: flex;
   justify-content: space-between;
   width: 100%;
+  /*margin-left: 20px;*/
+  /*margin-right: 20px;*/
 }
 
 .img-block {
@@ -50,9 +52,17 @@ body {
   height: 100px;
 }
 
-.panel-block {
-  width: 296px;
+.flex-marg{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-left: 70px;
+  margin-right: 50px;
 }
+
+/*.panel-block {*/
+  /*width: 296px;*/
+/*}*/
 
 .text-panel {
   font-size: 24px;
