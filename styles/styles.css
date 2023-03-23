@@ -18,40 +18,38 @@ body {
   flex-direction: column;
   align-items: center;
   padding-top: 120px;
-  padding-bottom: 20px;
+  padding-bottom: 100px;
   font-size: 40px;
 }
 
 .dividing-line {
-  margin: 40px 45% 80px 45%  ;
+  margin-top: 40px;
   width: 100px;
+  border: none;
   height: 4px;
   background-color: #f5bd41;
 }
-
-/*.dividing-line {*/
-/*  width: 100px;*/
-/*  height: 4px;*/
-/*  background-color: #f5bd41;*/
-/*  margin-bottom: 80px;*/
-/*  margin-top: 40px;*/
-/*}*/
 
 .container-panel {
   display: flex;
   justify-content: space-between;
   width: 100%;
+  /*margin-top: 110px;*/
+
 }
+
+/*.panel-block {*/
+/*flex-wrap: wrap;*/
+/*align-items: center;*/
+/*!*width: 296px;*!*/
+/*grid-gap:20px;*/
+/*}*/
 
 .img-block {
   display: flex;
-  align-items: center; /*центируем по оси у*/
-  justify-content: center; /*центируем по оси х*/
+  align-items: center;
+  justify-content: center;
   height: 100px;
-}
-
-.panel-block {
-  width: 296px;
 }
 
 .text-panel {
