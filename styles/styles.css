@@ -9,7 +9,6 @@ body {
 
 .container {
   width: 1235px;
-  /*height: 569px;*/
   margin: 0 auto;
 }
 
@@ -33,16 +32,8 @@ body {
 .container-panel {
   display: flex;
   justify-content: space-around;
-  /*justify-content: space-between;*/
   width: 100%;
 }
-
-/*.panel-block {*/
-/*flex-wrap: wrap;*/
-/*align-items: center;*/
-/*!*width: 296px;*!*/
-/*grid-gap:20px;*/
-/*}*/
 
 .img-block {
   display: flex;
