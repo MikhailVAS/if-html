@@ -1,3 +1,6 @@
+@import url('./font-roboto-400-regular.css');
+@import url('./font-roboto-500-medium.css');
+
 * {
   margin: 0;
   text-align: center;
@@ -19,6 +22,7 @@ body {
   padding-top: 120px;
   padding-bottom: 100px;
   font-size: 40px;
+  font-weight: 500;
 }
 
 .dividing-line {
@@ -49,4 +53,5 @@ body {
   align-self: flex-end;
   padding-top: 50px;
   margin-bottom: 8px;
+  font-weight: 400;
 }
