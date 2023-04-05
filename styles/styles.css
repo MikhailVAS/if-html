@@ -1,5 +1,5 @@
-@import url('./font-roboto-400-regular.css');
-@import url('./font-roboto-500-medium.css');
+@import url("roboto-400-regular.css");
+@import url("roboto-500-medium.css");
 
 * {
   margin: 0;
