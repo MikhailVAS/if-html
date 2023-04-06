@@ -3,7 +3,6 @@
 
 * {
   margin: 0;
-  text-align: center;
 }
 
 body {
@@ -13,6 +12,7 @@ body {
 .container {
   width: 1235px;
   margin: 0 auto;
+  text-align: center;
 }
 
 .offer-block {
