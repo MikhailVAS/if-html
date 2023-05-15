@@ -75,17 +75,16 @@ body {
 
 .footer-column {
   font-size: 20px;
-  font-weight: 500;
   color: #ffffff;
-  text-decoration: none;
-  text-decoration-color: #ffffff;
+  /*text-decoration: none;*/
+  /*text-decoration-color: #ffffff;*/
   display: flex;
   flex-direction: column;
   gap: 24px;
 }
 
-.footer-row {
-  font-weight: 400;
+.footer-list-header {
+  font-weight: 500;
   font-size: 20px;
 }
 
