@@ -2,14 +2,101 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="description" content="" />
+    <meta name="description" content="HomeWork" />
     <meta name="keywords" content="" />
     <meta name="author" content="Mikhail Vas" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Title</title>
     <link rel="stylesheet" href="./styles/styles.css" />
+    <link rel="stylesheet" href="styles/styles.css">
   </head>
   <body>
+    <section>
+      <header class="content">
+        <nav class="block-1">
+          <img class="logo_vector" src="./images/logo_vector.svg" alt="logo" />
+          <div class="menu">
+            <a class="a_menu" href="#">Stays</a>
+            <a class="a_menu" href="#">Attractios</a>
+            <button>
+              <img class="img_menu" src="./images/Night.svg" alt="night" />
+            </button>
+            <button>
+              <img
+                class="img_menu_acc"
+                src="./images/AccountCircle.svg"
+                alt="account"
+              />
+            </button>
+          </div>
+        </nav>
+        <div class="page">
+          <h1 class="discover">
+            Discover stays <br />
+            to live, work or just relax
+          </h1>
+          <div class="search">
+            <div class="search-p">
+              <label for="hotel-search" class="search-p-text"
+                >Your destination or hotel name</label
+              >
+              <label for="start-search" class="search-p-text"
+                >Check-in — Check-out</label
+              >
+            </div>
+            <form class="search-block">
+              <input
+                class="hotel-search-input"
+                list="hotel"
+                type="search"
+                id="hotel-search"
+                name="hotel-search"
+                placeholder="Add your city"
+              />
+              <datalist id="hotel">
+                <option value="New York"></option>
+                <option value="MGM Grand"></option>
+                <option value="Circus Circus"></option>
+                <option value="The Venetian"></option>
+              </datalist>
+
+              <input
+                class="start-search-input"
+                type="date"
+                id="start-search"
+                name="start-search"
+                value="Tue 15 Sept — Sat 19 Sept"
+              />
+              <input
+                class="start-search-name"
+                type="text"
+                id="name"
+                name="name"
+                required
+                value="2 Adults — 0 Children — 1 Room"
+              />
+              <input
+                class="btn-search search-block"
+                type="submit"
+                value="Search"
+              />
+            </form>
+          </div>
+        </div>
+        <div class="icon-svg">
+          <img
+            class="icon-svg-brend"
+            src="./images/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917%201.svg"
+            alt="google-play"
+          />
+          <img
+            class="icon-svg-brend"
+            src="./images/google-play-badge.svg"
+            alt="App_Store"
+          />
+        </div>
+      </header>
+    </section>
     <div class="container">
       <h2 class="offer-block">
         What do we offer
