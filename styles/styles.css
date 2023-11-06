@@ -13,6 +13,7 @@ body {
 /* ============= Block "TripHouse" ============= */
 .content{
   background-image: url('../images/castelmezzano-1979546 1.png');
+  background-size: cover;
 }
 
 .logo_vector{
